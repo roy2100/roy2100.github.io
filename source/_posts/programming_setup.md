@@ -1,5 +1,6 @@
 ---
 title: Programming Setup
+date: 2024-09-23 16:13:00
 ---
 ### 命令行
 - Go
