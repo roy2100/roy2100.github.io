@@ -4,12 +4,12 @@
 
 # Site
 title: Roy's Blog
-subtitle: ''
+subtitle: '在任何时候，都有 40% 的几率是错的'
 description: ''
 keywords:
 author: Roy
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
