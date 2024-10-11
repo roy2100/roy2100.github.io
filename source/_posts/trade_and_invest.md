@@ -41,9 +41,9 @@ spy qqq spmo smh nvda
 
 ## 杠杆调整
 
-通过 leap call 和正股的比例调配标的杠杆。
+根据宏观环境，通过 leap call 和正股的比例调配标的杠杆。
 
-根据利率使用 margin 调整整个仓位的杠杆。
+根据利率，使用 margin 调整整个仓位的杠杆。
 
 # 风险控制
 
