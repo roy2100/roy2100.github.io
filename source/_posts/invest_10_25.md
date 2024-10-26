@@ -19,7 +19,7 @@ tags:
 > btc：-2.71%
 > gld：+0.82%
 > vix：+12.7%（20.3）
-> fear greed index：greed（59）
+> fear greed index：-15.7%（greed 59）
 
 - ibkr：+7.63%
 - 长桥：+12%
