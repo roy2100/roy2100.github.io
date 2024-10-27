@@ -109,7 +109,3 @@ deploy:
 auto_excerpt:
   enable: true
   length: 100
-
-# Pagination
-per_page: 10
-pagination_dir: page
