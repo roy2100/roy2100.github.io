@@ -104,3 +104,12 @@ deploy:
   type: git
   repo: https://github.com/nanlei2000/nanlei2000.github.io.git
   branch: main
+
+# Automatically generate excerpts. Set to false to disable.
+auto_excerpt:
+  enable: true
+  length: 100
+
+# Pagination
+per_page: 10
+pagination_dir: page
