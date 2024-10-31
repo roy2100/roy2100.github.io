@@ -21,9 +21,8 @@ tags:
 
 ## 标的选择
 
-- SMH
-- NVDA
-- AVGO
+- SMH - 芯片 基建
+- MAGS - 应用
 
 # BTC & 黄金
 
@@ -39,6 +38,7 @@ tags:
 - BTC
 - MSTR
 - GLD
+- HMY
 
 # 核能
 
