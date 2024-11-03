@@ -23,6 +23,7 @@ tags:
 
 - buy the dip mstr@120
 - hold mstr
+- 加入无名付费会员群
 
 # 失败的决策（9、10 月）
 
