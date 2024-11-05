@@ -9,6 +9,8 @@ tags:
 
 ![投资金字塔](images/invest_pyramid.png)
 
+<!-- more -->
+
 ## 1. 穿越周期的价值
 
 标的：btc gold voo

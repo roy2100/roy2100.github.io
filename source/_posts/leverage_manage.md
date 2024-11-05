@@ -11,6 +11,8 @@ spmo -> spy leap
 smh -> smh leap
 mstr -> mstr leap
 
+<!-- more -->
+
 # 时机
 
 在 cnn fear&greed index 处于 fear 时增加杠杆，处于 extreme greed 时，卸掉杠杆

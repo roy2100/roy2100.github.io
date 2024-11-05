@@ -2,17 +2,22 @@
 title: Programming Setup
 date: 2024-09-23 16:13:00
 ---
+
 ### 命令行
+
 - Go
 - Node
 - Yarn
 - Pnpm
 - Zsh
-  -  `plugins=(git zsh-autosuggestions)`
+  - `plugins=(git zsh-autosuggestions)`
   - `ZSH_THEME="robbyrussell"`
 - brew
 
+<!-- more -->
+
 ### UI 工具
+
 - vscode
 - Sequel Ace
 - Figma
@@ -22,8 +27,8 @@ date: 2024-09-23 16:13:00
 - Mac Mouse Fix
 - Stats
 
-
 ### vscode 插件
+
 - Todo Tree
 - Reload
 - React TypeScript boilerplate
@@ -37,6 +42,7 @@ date: 2024-09-23 16:13:00
 - change-case
 
 ### Chrome 插件
+
 - FeHelper(前端助手)
 - LocatorJS
 - ModHeader - Modify HTTP headers
@@ -45,4 +51,5 @@ date: 2024-09-23 16:13:00
 - Redux DevTools
 
 ### 工具网站
+
 - https://transform.tools/json-to-typescript
