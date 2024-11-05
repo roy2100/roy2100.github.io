@@ -11,13 +11,13 @@ tags:
 
 ## 1. 穿越周期的价值
 
-标的：btc gold brk
+标的：btc gold voo
 
 时间尺度：此部分资产应该只买不卖，产生复利。
 
 ## 2. 跑赢大盘
 
-标的：spy qqq spmo smh nvda
+标的：qqq spmo smh nvda
 
 时间尺度：月/季度/年
 
