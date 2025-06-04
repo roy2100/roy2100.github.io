@@ -17,9 +17,9 @@ Before you going into investing, you should learn to be responsible to your own 
 
 # How?
 
-Being full time investor just like training an AI model for investing decisions, but instead using computer to for training/inference, we use our own mind.
-Most of your time should spend on reading new information, but instead of letting algorithm decide what to read, you should proactively choose information source, then make your own decide,and wait for result.
-At this moment, time is your friend not enemy.
+Being full time investor just like training an AI model for investing decisions, but instead using computer for training/inference, we use our own mind.
+Most of your time should be spent on reading new information, but instead of letting algorithm decide what to read, you should proactively choose information source, then make your own decision, and wait for result.
+At this moment, time is your friend.
 
 # End
 
