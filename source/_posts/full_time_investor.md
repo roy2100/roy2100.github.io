@@ -7,7 +7,7 @@ tags:
 
 # Why?
 
-Most people think investing is the part-time job.They can do well with spare time. But is it true? According to data, more retail investors are losing money, only X percent of people continue to gain profit.So in my opinion, investing is a hard job, and if you want to continue to win the game, you should spend your most time in it.
+Most people think investing is the part-time job.They can do well with spare time. But is it true? According to data, more retail investors are losing money, only 5 percent of people continue to gain profit.So in my opinion, investing is a hard job, and if you want to win the game in a large time frame, you should spend your most time in it.
 
 # What?
 
