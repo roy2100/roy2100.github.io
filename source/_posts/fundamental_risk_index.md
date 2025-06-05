@@ -10,8 +10,22 @@ Investing is about how to manage risks. When you want to become shareholder of a
 Here introduce a metrics I invented to measure company's fundamental risk.
 
 ```
-Fundamental Risk Index = Debt To Equity % + Net Profit Growth YoY + ROE %
+Fundamental Risk Index = (100 - Debt To Equity %) + Net Profit Growth YoY + ROE %
 ```
+
+# Reason
+
+## Debt to equity
+
+Debt to equity equals how much financial leverage company current have. Leverage is not good when bad things happen.
+
+## Net Profit Growth
+
+Company could not provide shareholder value when company's profit declines.
+
+## ROE
+
+Buying a stock just like give company money, the ROE metrics shows company earn how much percent with invested money.
 
 # Example
 
@@ -29,3 +43,7 @@ Fundamental Risk Index = Debt To Equity % + Net Profit Growth YoY + ROE %
 | HIMS  | 38.4             | 635.3                 | 30.70  | 727.6  |
 | PLTR  | 18.1             | 115.3                 | 10.90  | 208.1  |
 | IBKR  | 88.9             | 21.2                  | 19.20  | 51.5   |
+
+# Stock Pick
+
+HIMS NVDA PLTR
