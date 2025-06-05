@@ -7,12 +7,14 @@ tags:
 
 Here introduce two metrics I invented to measure bitcoin treasury company.
 
+<!-- more -->
+
 # mNAV To BTC Yield Ratio
 
 Just like PEG ratio for Trad-Fi world, mNAV to BTC yield ratio measure how expensive this bitcoin treasury company is. Just divide mNAV with BTC yield to get the result, lower is better.
 
 ```
-mNAV To BTC Yield Ratio =  mNAV /  BTC Yield
+mNAV To BTC Yield Ratio =  mNAV / BTC Yield
 ```
 
 # Vitality Index

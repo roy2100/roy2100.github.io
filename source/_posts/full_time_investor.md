@@ -9,6 +9,8 @@ tags:
 
 Most people think investing is the part-time job.They can do well with spare time. But is it true? According to data, most of retail investors are losing money, only 5 percent of people continue to gain profit.So in my opinion, investing is a hard job, and if you want to win the game in a large time frame, you should spend your most time into it.
 
+<!-- more -->
+
 # What?
 
 Full-time investor should work like warren buffet, spend most of personal time into research.Investor is not like so called "trader", you should not buy&sell stocks/options everyday.
