@@ -2,7 +2,7 @@
 title: Full-time Investor
 date: 2025-06-04 14:00:00
 tags:
-  - 投资
+  - Investing
 ---
 
 # Why?

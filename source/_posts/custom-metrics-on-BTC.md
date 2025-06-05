@@ -2,7 +2,7 @@
 title: Custom Metrics On Bitcoin Treasury Company
 date: 2025-06-05 17:00:00
 tags:
-  - 投资
+  - Investing
 ---
 
 Here introduce two metrics I invented to measure bitcoin treasury company.
