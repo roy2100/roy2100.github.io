@@ -5,7 +5,7 @@ tags:
   - 投资
 ---
 
-Here introduce two metrics I invent to measure bitcoin treasury company.
+Here introduce two metrics I invented to measure bitcoin treasury company.
 
 # mNAV To BTC Yield Ratio
 
@@ -27,4 +27,4 @@ Vitality Index = HV(30D) + Daily Turnover * 1000
 
 # Current stock pick
 
-Of course you should invest into MSTR, cause it's the first and largest bitcoin treasury company in the world.But what else can we choose?According to two custom metrics I introduced above, I think MetaPlanet is a good choose.
+Of course you should invest into MSTR, cause it's the first and largest bitcoin treasury company in the world.But what else can we choose?According to two custom metrics I introduced above, I think MetaPlanet is a good choice.
