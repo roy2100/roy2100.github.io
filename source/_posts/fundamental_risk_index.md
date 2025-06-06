@@ -7,6 +7,8 @@ tags:
 
 Investing is about how to manage risks. When you want to become shareholder of a company, you should find a way to measure fundamental risks.
 
+<!-- more -->
+
 Here introduce a metrics I invented to measure company's fundamental risk.
 
 ```
