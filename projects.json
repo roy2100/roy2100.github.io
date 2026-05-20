@@ -1,6 +1,6 @@
 [
   {
-    "name": "lizhi_song_player",
+    "name": "李志音乐播放器",
     "label": "L",
     "description": "一个 Apple Music 风格的李志音乐播放器",
     "color": "#ff3b30",
@@ -9,21 +9,12 @@
     "wip": false
   },
   {
-    "name": "readbook",
+    "name": "EPUB 朗读器",
     "label": "R",
     "description": "A browser-based EPUB reader with text-to-speech.",
     "color": "#ff9500",
     "demo": "https://roy2100.github.io/readbook/",
     "github": "https://github.com/roy2100/readbook",
-    "wip": false
-  },
-  {
-    "name": "为了忘却的纪念",
-    "label": "为",
-    "description": "为了忘却的纪念",
-    "color": "#5856d6",
-    "demo": "https://roy2100.github.io/wei-le-wang-que-de-ji-nian",
-    "github": "https://github.com/roy2100/wei-le-wang-que-de-ji-nian",
     "wip": false
   },
   {
