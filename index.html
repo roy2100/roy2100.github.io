@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roy · Open Source</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f2f2f7;
+      --text-primary: #1c1c1e;
+      --text-secondary: #3a3a3c;
+      --text-muted: #8e8e93;
+      --surface: rgba(255,255,255,0.72);
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ── */
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 64px 24px 40px;
+      gap: 10px;
+    }
+
+    .avatar {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      margin-bottom: 4px;
+    }
+
+    header h1 {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.2px;
+      color: var(--text-primary);
+    }
+
+    .github-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 13px;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .github-link:hover { color: var(--text-secondary); }
+
+    /* ── Section ── */
+    .section-label {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+      text-align: center;
+    }
+
+    /* ── Apps grid ── */
+    .apps {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 28px 36px;
+      padding: 0 32px 80px;
+      max-width: 640px;
+    }
+
+    /* ── Single app item ── */
+    .app {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      width: 76px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    /* Icon */
+    .icon {
+      width: 76px;
+      height: 76px;
+      border-radius: 17px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      font-weight: 600;
+      color: #fff;
+      background: var(--icon-grad);
+      box-shadow:
+        0 2px 8px rgba(0,0,0,0.14),
+        0 0 0 0.5px rgba(0,0,0,0.06);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      user-select: none;
+      flex-shrink: 0;
+      letter-spacing: -1px;
+    }
+
+    .app:hover .icon {
+      transform: scale(1.06);
+      box-shadow:
+        0 6px 20px rgba(0,0,0,0.18),
+        0 0 0 0.5px rgba(0,0,0,0.06);
+    }
+
+    .app:active .icon {
+      transform: scale(0.95);
+    }
+
+    /* Name */
+    .app-name {
+      font-size: 11.5px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      text-align: center;
+      line-height: 1.4;
+      word-break: break-word;
+      max-width: 76px;
+    }
+
+    /* WIP badge overlay */
+    .wip-dot {
+      position: absolute;
+      top: -3px;
+      right: -3px;
+      width: 18px;
+      height: 18px;
+      background: #ff9500;
+      border: 2px solid var(--bg);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wip-dot::after {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: #fff;
+      border-radius: 50%;
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: absolute;
+      bottom: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(28,28,30,0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      color: #fff;
+      font-size: 12px;
+      line-height: 1.5;
+      padding: 8px 12px;
+      border-radius: 10px;
+      white-space: nowrap;
+      max-width: 220px;
+      white-space: normal;
+      text-align: center;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s;
+      z-index: 10;
+    }
+
+    .tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 5px solid transparent;
+      border-top-color: rgba(28,28,30,0.88);
+    }
+
+    .app:hover .tooltip { opacity: 1; }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: auto;
+      padding: 0 0 36px;
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    footer a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    footer a:hover { color: var(--text-secondary); }
+
+    @media (max-width: 480px) {
+      .apps { gap: 24px 28px; padding: 0 16px 60px; }
+      header { padding: 48px 16px 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <p class="section-label" style="padding-top: 64px;">开源项目</p>
+
+  <div class="apps">
+
+    <!-- lizhi_song_player -->
+    <a class="app" href="https://roy2100.github.io/lizhi_song_player/" target="_blank" rel="noopener">
+      <div class="icon" style="--icon-grad: linear-gradient(145deg, #ff2d55, #ff6b6b);">L</div>
+      <span class="app-name">lizhi_song_player</span>
+      <div class="tooltip">一个 Apple Music 风格的李志音乐播放器</div>
+    </a>
+
+    <!-- readbook -->
+    <a class="app" href="https://roy2100.github.io/readbook/" target="_blank" rel="noopener">
+      <div class="icon" style="--icon-grad: linear-gradient(145deg, #ff9500, #ffcc02);">R</div>
+      <span class="app-name">readbook</span>
+      <div class="tooltip">A browser-based EPUB reader with text-to-speech.</div>
+    </a>
+
+    <!-- wei-le-wang-que-de-ji-nian -->
+    <a class="app" href="https://roy2100.github.io/wei-le-wang-que-de-ji-nian" target="_blank" rel="noopener">
+      <div class="icon" style="--icon-grad: linear-gradient(145deg, #5856d6, #9b59b6);">为</div>
+      <span class="app-name">为了忘却的纪念</span>
+      <div class="tooltip">为了忘却的纪念</div>
+    </a>
+
+    <!-- clash-bench -->
+    <a class="app" href="https://roy2100.github.io/clash-bench/" target="_blank" rel="noopener">
+      <div class="icon" style="--icon-grad: linear-gradient(145deg, #007aff, #32ade6);">C</div>
+      <span class="app-name">clash-bench</span>
+      <div class="tooltip">给任意 Clash/mihomo 代理节点跑标准化基准测试</div>
+    </a>
+
+    <!-- proxy-helper (WIP) -->
+    <a class="app" href="https://github.com/roy2100/proxy-helper/releases" target="_blank" rel="noopener">
+      <div class="icon" style="--icon-grad: linear-gradient(145deg, #636366, #aeaeb2);">P</div>
+      <span class="wip-dot"></span>
+      <span class="app-name">proxy-helper</span>
+      <div class="tooltip">macOS 菜单栏代理管理工具（开发中）</div>
+    </a>
+
+  </div>
+
+  <footer>
+    <a href="https://github.com/roy2100" target="_blank" rel="noopener">@roy2100</a> · GitHub Pages
+  </footer>
+
+</body>
+</html>
