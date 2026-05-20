@@ -1,0 +1,47 @@
+[
+  {
+    "name": "lizhi_song_player",
+    "label": "L",
+    "description": "一个 Apple Music 风格的李志音乐播放器",
+    "color": "#ff3b30",
+    "demo": "https://roy2100.github.io/lizhi_song_player/",
+    "github": "https://github.com/roy2100/lizhi_song_player",
+    "wip": false
+  },
+  {
+    "name": "readbook",
+    "label": "R",
+    "description": "A browser-based EPUB reader with text-to-speech.",
+    "color": "#ff9500",
+    "demo": "https://roy2100.github.io/readbook/",
+    "github": "https://github.com/roy2100/readbook",
+    "wip": false
+  },
+  {
+    "name": "为了忘却的纪念",
+    "label": "为",
+    "description": "为了忘却的纪念",
+    "color": "#5856d6",
+    "demo": "https://roy2100.github.io/wei-le-wang-que-de-ji-nian",
+    "github": "https://github.com/roy2100/wei-le-wang-que-de-ji-nian",
+    "wip": false
+  },
+  {
+    "name": "clash-bench",
+    "label": "C",
+    "description": "给任意 Clash/mihomo 代理节点跑标准化基准测试",
+    "color": "#007aff",
+    "demo": "https://roy2100.github.io/clash-bench/",
+    "github": "https://github.com/roy2100/clash-bench",
+    "wip": false
+  },
+  {
+    "name": "proxy-helper",
+    "label": "P",
+    "description": "macOS 菜单栏代理管理工具（开发中）",
+    "color": "#8e8e93",
+    "demo": "https://github.com/roy2100/proxy-helper/releases",
+    "github": "https://github.com/roy2100/proxy-helper",
+    "wip": true
+  }
+]
