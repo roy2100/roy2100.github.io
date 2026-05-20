@@ -1,3 +1,6 @@
+# Build cache
+src/.fonts.cache.css
+
 # Logs
 logs
 *.log
