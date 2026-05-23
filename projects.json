@@ -33,6 +33,15 @@
     "color": "#8e8e93",
     "demo": "https://github.com/roy2100/proxy-helper",
     "github": "https://github.com/roy2100/proxy-helper",
-    "wip": true
+    "wip": false
+  },
+  {
+    "name": "π  Calculator",
+    "label": "π",
+    "description": "π calculator powered by Rust + WebAssembly",
+    "color": "#5856d6",
+    "demo": "https://roy2100.github.io/pi-calculator/",
+    "github": "https://github.com/roy2100/pi-calculator",
+    "wip": false
   }
 ]
